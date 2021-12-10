@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "RSlash",
+  "description": "This extension will redirect you to a subreddit when you type r/ {subreddit} in the search bar.",
+  "version": "1.0",
+
+  "icons": {
+      "16":"16.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "omnibox": { "keyword" : "r/" }
+}
